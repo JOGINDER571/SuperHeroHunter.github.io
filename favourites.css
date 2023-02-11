@@ -1,0 +1,33 @@
+body {
+  background-image: url("./assets/comicblue.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#favlistitem {
+  display: flex;
+  align-items: flex-start;
+}
+
+#outerbox {
+  border: 1px solid black;
+  margin: 10px;
+  background-color: aqua;
+}
+#innerbox {
+  margin: 10px;
+  /* background-color: aqua; */
+}
+h5 {
+  margin-left: 10px;
+}
+button {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+#innerbox img {
+  height: 300px;
+  width: 200px;
+}
